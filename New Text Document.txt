@@ -1,0 +1,69 @@
+
+Assignment 1 (Socket Programming) → Java 8 preferred, Java 17 also works.
+
+Assignment 2 (Java RMI) → Java 8 strongly preferred.
+
+Assignment 3 (CORBA) → Java 8 required.
+
+Assignment 4 (MPI using MPJ Express) → Java 8 required.
+
+Assignment 5 (Berkeley Algorithm) → Java 8 preferred, Java 17 also works.
+
+Assignment 6 (Token Ring Algorithm) → Java 8 preferred, Java 17 also works.
+
+Assignment 7 (Bully & Ring Election Algorithm) → Java 8 preferred, Java 17 also works.
+
+Assignment 8 (Web Services) → Java 8 preferred, Java 17 also works.
+```
+
+# Important Commands
+
+```text
+RMI Registry Start Command:
+rmiregistry
+```
+
+```text
+Run RMI Server:
+java com.rmi.AddServer
+```
+
+```text
+Run RMI Client:
+java com.rmi.AddClient
+```
+
+```text
+CORBA Naming Service Start:
+tnameserv -ORBInitialPort 1050
+```
+
+```text
+Run CORBA Server:
+java ReverseServer -ORBInitialPort 1050
+```
+
+```text
+Run CORBA Client:
+java ReverseClient -ORBInitialPort 1050
+```
+
+```text
+Run MPI Program:
+mpjrun.bat -cp E:\DS\MPILab4\bin -np 4 ArrSum
+```
+
+```text
+Generate CORBA Java Files from IDL:
+idlj -fall ReverseModule.idl
+```
+
+```text
+Check Java Version:
+java -version
+```
+
+```text
+Check Java Compiler Version:
+javac -version
+```
